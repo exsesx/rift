@@ -1,0 +1,13 @@
+# Merge into ~/.aerospace.toml for benchmark runs (AeroSpace >= 0.21 for focus-follows-mouse).
+# Keep these identical in spirit to rift-bench.toml so both WMs do the same work.
+
+[mode.main.binding]
+alt-1 = 'workspace 1'
+alt-2 = 'workspace 2'
+alt-3 = 'workspace 3'
+alt-h = 'focus left'
+alt-l = 'focus right'
+
+# Variant B (mouse phase): enable focus-follows-mouse in both WMs.
+# See https://nikitabobko.github.io/AeroSpace/guide for the exact 0.21 option name;
+# this file deliberately does not guess it.
