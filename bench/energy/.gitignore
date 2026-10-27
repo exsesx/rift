@@ -1,0 +1,4 @@
+results/
+.driver
+.fixture_window_ids
+*.csv

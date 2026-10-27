@@ -1,0 +1,25 @@
+# Merge into ~/.config/rift/config.toml for benchmark runs.
+# Workspace indices are 0-based in rift; Alt+1 maps to AeroSpace workspace 1.
+
+[settings]
+animate = false              # variant: true, to price animations separately
+focus_follows_mouse = false  # variant B (mouse phase): true, and enable FFM in AeroSpace too
+mouse_follows_focus = false  # AeroSpace does not do this unless you add on-focus-changed
+mouse_hides_on_focus = false
+
+[settings.ui.menu_bar]
+enabled = false              # AeroSpace's menu bar icon is always on; price rift's separately
+[settings.ui.mission_control]
+enabled = false
+[settings.gestures]
+enabled = false
+
+[virtual_workspaces]
+default_workspace_count = 3
+
+[keys]
+"Alt + 1" = { switch_to_workspace = 0 }
+"Alt + 2" = { switch_to_workspace = 1 }
+"Alt + 3" = { switch_to_workspace = 2 }
+"Alt + H" = { move_focus = "left" }
+"Alt + L" = { move_focus = "right" }
